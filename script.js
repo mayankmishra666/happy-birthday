@@ -4,11 +4,11 @@ const togetherGrid = document.getElementById('togetherGrid');
 
 for (let i = 1; i <= 10; i++) {
   herGrid.insertAdjacentHTML('beforeend',
-    `<div class="card"><img src="assets/her${i}.jpg" alt="Her ${i}" loading="lazy" /></div>`);
+    `<div class="card"><img src="her${i}.jpg" alt="Her ${i}" loading="lazy" /></div>`);
 }
 for (let i = 1; i <= 5; i++) {
   togetherGrid.insertAdjacentHTML('beforeend',
-    `<div class="card"><img src="assets/together${i}.jpg" alt="Together ${i}" loading="lazy" /></div>`);
+    `<div class="card"><img src="together${i}.jpg" alt="Together ${i}" loading="lazy" /></div>`);
 }
 
 // ---------- Lightbox ----------
